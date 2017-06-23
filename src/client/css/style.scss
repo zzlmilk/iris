@@ -1,0 +1,49 @@
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+$headerHeight:    45px;
+
+#slide03 {
+    background: #16222A;
+    background: -webkit-linear-gradient(to left, #16222A, #3A6073);
+    background: linear-gradient(to left, #16222A, #3A6073)
+}
+
+
+
+.site-header{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+    background-color: #27ae60;
+}
+
+
+
+.head_jumbotron{
+        min-height: $headerHeight;
+        background-color: #27ae60;
+}
+
+
+// global style settings
+.spacer {
+    margin-top: 20px;
+}
+
+*:focus {
+    outline: 0;
+}
+
+
+
+.left-container{
+    color: $brand-primary;
+    font-size: $font-size-large;
+    float: left;
+
+    span{
+        cursor: pointer;
+    }
+}

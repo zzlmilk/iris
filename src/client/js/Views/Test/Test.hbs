@@ -1,0 +1,69 @@
+
+<header class="site-header">
+
+<!-- <div class=" jumbotron head_jumbotron"  style="background-image:url('img/b.jpeg')"> -->
+<div class=" jumbotron head_jumbotron" >
+
+
+	<div class="container">
+
+		<h1>R. Y. Ready ?</h1>
+
+	</div>
+
+</div>
+</header>
+
+<div class="table-responsive">
+	<table class="table table-condensed table-bordered"> 
+	<thead>
+			<tr>
+				<!-- <td>#</td> -->
+				<td>profile_image_url</td>
+				<td>name</td>
+				<td>city</td>
+				<td>mobile</td>
+				<td>birthday</td>
+				
+				
+			</tr>
+	</thead>
+	 {{#each userlist}}
+		<tr>
+			<!-- <td>{{guid}}</td> -->
+			<td>
+			 <a href={{profile_image_url}} class="thumbnail" style="width: 150px" >
+   				   <img src={{profile_image_url}} >
+   			 </a>
+			</td>
+			<td>{{nickname}}</td>
+			<td>{{city}}</td>
+			<td>{{mobile}}</td>
+			<td>{{birthday}}</td>
+			
+		</tr>
+	 {{/each}}	
+		
+
+	</table> 
+
+</div>
+
+
+	
+
+
+
+<!-- <div class="container jumbotron">
+
+	<div class="row"><div class="col-xs-12">
+		<img src="/assets/img/bootcdn.png" alt="BootCDN logo" class="hidden">
+			<h1>BootCDN</h1><p>稳定、快速、免费的前端开源项目 CDN 加速服务
+			<br>
+			<span class="package-amount">共收录了 
+			<strong>3051</strong> 
+			个前端开源项目</span>
+			</p>
+				<div class="search-wraper" role="search">
+					<div class="form-group"><input class="form-control search clearable" placeholder="搜索开源库，例如：jquery" autocomplete="off" autofocus="" tabindex="0" autocorrect="off" autocapitalize="off" spellcheck="false"> <i class="fa fa-search"></i></div></div></div></div></div>-->					
+
